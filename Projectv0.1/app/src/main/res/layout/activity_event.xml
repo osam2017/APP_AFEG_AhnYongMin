@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="행사 일정" />
+
+    <ListView
+        android:id="@+id/event_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scrollbars="vertical"
+        >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/customizeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="행사 추가하기"/>
+
+</LinearLayout>
